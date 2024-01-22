@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>server</title>
+</head>
+
+<body class="">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20">
+    <div class="mt-36">
+      <div class="-mt-5">
+        <svg width="49" height="44" viewBox="0 0 49 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20.6036 39.1017C20.8711 38.413 20.9986 37.6779 20.9787 36.9394C21.0195 34.8926 21.5666 32.8877 22.571 31.1039C23.573 29.323 25.0018 27.8191 26.729 26.7272C27.3685 26.3842 27.9318 25.915 28.3848 25.348C28.8378 24.781 29.171 24.1279 29.3643 23.4284C29.5576 22.7289 29.607 21.9975 29.5095 21.2783C29.412 20.5592 29.1696 19.8673 28.797 19.2445C28.2992 18.4126 27.5829 17.7306 26.729 17.2769C26.2395 16.9373 25.7692 16.5715 25.321 16.1796L24.1976 15.0796C22.1392 12.9156 20.9848 10.0472 20.9705 7.06063C20.9918 6.32193 20.8649 5.58645 20.5973 4.89759C20.3297 4.20873 19.9269 3.58042 19.4126 3.04975C18.9006 2.51967 18.2871 2.09818 17.6086 1.81044C16.9301 1.5227 16.2006 1.37461 15.4636 1.375C14.7271 1.37604 13.9982 1.52479 13.3201 1.81245C12.6421 2.10011 12.0286 2.52084 11.516 3.04975C11.0026 3.58136 10.6004 4.21002 10.3329 4.89895C10.0654 5.58788 9.93799 6.32324 9.95812 7.062C9.97013 8.02098 10.2343 8.95991 10.724 9.7845C11.212 10.6077 11.9088 11.2874 12.7439 11.7549C16.125 13.8944 18.4776 17.985 18.4776 22.0083C18.4693 24.9689 17.3369 27.8159 15.3096 29.9736L12.7521 32.2451C11.9175 32.7113 11.2204 33.3905 10.7309 34.2155C10.24 35.0391 9.97737 35.9796 9.96499 36.9394C9.94396 37.678 10.071 38.4135 10.3385 39.1023C10.6061 39.7911 11.0088 40.4194 11.5229 40.9502C12.035 41.4802 12.6485 41.9016 13.327 42.1893C14.0055 42.4771 14.7349 42.6252 15.4719 42.625C16.2087 42.6241 16.9378 42.4755 17.6161 42.1878C18.2944 41.9002 18.9081 41.4793 19.4209 40.9502C19.934 40.4188 20.3361 39.7903 20.6036 39.1017Z"
+            fill="#4F46E5" />
+          <path
+            d="M28.0724 10.12C27.466 9.20975 27.1429 8.13863 27.1429 7.04413C27.1438 5.578 27.7246 4.17176 28.7585 3.13225C29.6575 2.22783 30.8432 1.66444 32.1121 1.53875C33.3811 1.41305 34.6543 1.73289 35.7132 2.44338C36.6203 3.05237 37.3265 3.9165 37.7427 4.92663C38.159 5.9379 38.2677 7.04952 38.0551 8.12226C37.8426 9.19501 37.3183 10.1812 36.5479 10.9574C35.7798 11.7314 34.7985 12.259 33.7292 12.4728C32.66 12.6866 31.5513 12.5769 30.5446 12.1578C29.537 11.7382 28.6766 11.029 28.0724 10.12Z"
+            fill="#4F46E5" />
+          <path
+            d="M29.5917 32.3372C30.4979 31.7295 31.5635 31.405 32.6525 31.405V31.4022C33.3764 31.4031 34.093 31.5469 34.7612 31.8253C35.4295 32.1037 36.0361 32.5113 36.5465 33.0247C37.4484 33.9321 38.0094 35.123 38.1347 36.3962C38.2599 37.6694 37.9418 38.9468 37.234 40.0125C36.6298 40.9227 35.7689 41.6329 34.7604 42.053C33.7537 42.4722 32.645 42.5818 31.5757 42.368C30.5065 42.1542 29.5252 41.6266 28.7571 40.8526C27.9864 40.0763 27.462 39.0899 27.2494 38.0169C27.0369 36.9438 27.1457 35.832 27.5622 34.8205C27.9785 33.8104 28.6848 32.9463 29.5917 32.3372Z"
+            fill="#4F46E5" />
+          <path
+            d="M45.8209 18.9173C46.4257 19.8272 46.7488 20.8965 46.749 21.9906C46.7481 23.457 46.1673 24.8637 45.1334 25.9036C44.6229 26.4168 44.0162 26.8243 43.348 27.1027C42.6798 27.3812 41.9632 27.525 41.2394 27.5261C40.1492 27.5261 39.0837 27.2016 38.1786 26.5939C37.2716 25.9849 36.5653 25.1208 36.1491 24.1106C35.7326 23.0992 35.6237 21.9873 35.8363 20.9143C36.0488 19.8412 36.5733 18.8548 37.344 18.0785C38.1122 17.3042 39.0937 16.7764 40.1633 16.5626C41.2328 16.3488 42.3418 16.4587 43.3486 16.8781C44.3564 17.2981 45.2169 18.0078 45.8209 18.9173Z"
+            fill="#4F46E5" />
+          <path
+            d="M3.82286 17.3896C4.72899 16.7819 5.79324 16.4574 6.88361 16.4574C7.60734 16.4589 8.32366 16.6031 8.9916 16.8818C9.65953 17.1604 10.266 17.568 10.7762 18.0813C11.6777 18.9883 12.2384 20.1787 12.3637 21.4513C12.489 22.724 12.1711 24.0009 11.4637 25.0663C10.8597 25.9757 9.99924 26.6854 8.99149 27.1054C7.98449 27.5225 6.87628 27.6311 5.80746 27.4174C4.73865 27.2037 3.75741 26.6773 2.98824 25.905C2.21783 25.1288 1.69352 24.1426 1.48098 23.0699C1.26844 21.9971 1.3771 20.8855 1.79336 19.8743C2.20943 18.8637 2.91566 17.9991 3.82286 17.3896Z"
+            fill="#4F46E5" />
+        </svg>
+      </div>
+      <div class="mt-10">
+        <h2 class="text-4xl lg:font-extrabold lg:text-6xl mt-1">
+          Server management for growing teams
+        </h2>
+        <p class="text-gray-500 text-xl mt-5">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
+          cupidatat commodo. </p>
+        <div class="mt-3">
+          <input type="text" name="email" placeholder="Enter your email" class="border p-3  rounded-md">
+          <button class="bg-indigo-600 text-white rounded-md md:w-28 w-full py-3 px-3.5 ml-3">Notify me</button>
+          <div class="flex gap-5 mt-2">
+            <div class="flex mt-4">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_289_1891)">
+                  <path
+                    d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z"
+                    fill="#FBBF24" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_289_1891">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- 2 -->
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_289_1891)">
+                  <path
+                    d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z"
+                    fill="#FBBF24" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_289_1891">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- 3 -->
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_289_1891)">
+                  <path
+                    d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z"
+                    fill="#FBBF24" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_289_1891">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- 4 -->
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_289_1891)">
+                  <path
+                    d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z"
+                    fill="#FBBF24" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_289_1891">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- 5 -->
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_289_1891)">
+                  <path
+                    d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z"
+                    fill="#FBBF24" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_289_1891">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="text-gray-500 font-medium mt-3"><span class="text-gray-900"> Rated 5 stars</span> by over <span
+                class="text-indigo-600">
+                500 beta
+                users</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sm:pt-8 h-full -mx-10 md:w-full p-7 ">
+      <img src="./img/Container.png" alt="" class="rounded-lg ml-48">
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto">
+    <div class="ml-24">
+      <h1 class="text-lg font-medium">
+        Projects
+      </h1>
+      <p>You haven’t created a project yet. Get started by selecting a template or start from an empty project.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-5 gap-y-6 ml-24 mt-5">
+      <div class="flex gap-4">
+        <div class="bg-indigo-400 w-16 h-16 flex justify-center items-center rounded-lg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 10H20M4 14H20M4 18H20" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm leading-5 font-medium">
+            Create a List →
+          </h3>
+          <p class="text-gray-500">Another to-do system you’ll try but eventually give up on.</p>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="flex gap-4">
+        <div class="bg-indigo-400 w-16 h-16 flex justify-center items-center rounded-lg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 10H20M4 14H20M4 18H20" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm leading-5 font-medium">
+            Create a Gallery →
+          </h3>
+          <p class="text-gray-500">Another to-do system you’ll try but eventually give up on.</p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="flex gap-4">
+        <div class="bg-indigo-400 w-16 h-16 flex justify-center items-center rounded-lg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 10H20M4 14H20M4 18H20" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm leading-5 font-medium">
+            Create a Spreadsheet →
+          </h3>
+          <p class="text-gray-500">Another to-do system you’ll try but eventually give up on.</p>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="flex gap-4">
+        <div class="bg-indigo-400 w-16 h-16 flex justify-center items-center rounded-lg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 10H20M4 14H20M4 18H20" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm leading-5 font-medium">
+            Create a Calendar →
+          </h3>
+          <p class="text-gray-500">Another to-do system you’ll try but eventually give up on.</p>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="flex gap-4">
+        <div class="bg-indigo-400 w-16 h-16 flex justify-center items-center rounded-lg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 10H20M4 14H20M4 18H20" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm leading-5 font-medium">
+            Create a Board →
+          </h3>
+          <p class="text-gray-500">Another to-do system you’ll try but eventually give up on.</p>
+        </div>
+      </div>
+      <!-- 6 -->
+      <div class="flex gap-4">
+        <div class="bg-indigo-400 w-16 h-16 flex justify-center items-center rounded-lg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 10H20M4 14H20M4 18H20" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm leading-5 font-medium">
+            Create a Timeline →
+          </h3>
+          <p class="text-gray-500">Another to-do system you’ll try but eventually give up on.</p>
+        </div>
+      </div>
+      <p class="text-indigo-600 font-medium">Or start from an empty project →</p>
+    </div>
+  </div>
+</body>
+
+</html>
